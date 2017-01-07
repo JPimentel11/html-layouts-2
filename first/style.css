@@ -2,27 +2,109 @@
 
 .main {
   display: flex;
-  height: 1200px;
+  height: 1000px;
   width: 100%;
   flex-direction: column;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .firstBar {
   flex: 1;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+
+.topBoxLeft {
+  background-color: #D0021B;
+  width: 300px;
+  height: 100%;
+}
+
+.topBoxMid {
+  background-color: #4A90E2;
+  width: 300px;
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.topBoxRight {
+  background-color: #4A4A4A;
+  width: 300px;
+  height: 100%;
+  }
 
 .secondBar {
   flex: 2;
   background-color: #fff;
+  font-size: 20px;
+  align-items: center;
+  padding: 10px;
 }
 
 .thirdBar {
   flex: 2;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.thirdBoxLeft {
+  flex: 1;
+  background-color: #D0021B;
+  height: 100%;
+}
+
+.thirdBoxRight {
+  flex: 2;
+  background-color: #4A90E2;
+  height: 100%;
 }
 
 .fourthBar {
   flex: 1;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.fourthBoxLeft {
+  flex: 2;
+  background-color: #4A90E2;
+  height: 100%;
+}
+
+.fourthBoxRight {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourthCornerLeft {
+  flex: 1;
+  background-color: #D0021B;
+  height: 100%;
+}
+
+.fourthCornerMid {
+  flex: 4;
+  background-color: #4A4A4A;
+  height: 100%;
+}
+
+.fourthCornerRight {
+  flex: 1;
+  background-color: #D0021B;
+  height: 100%;
 }
