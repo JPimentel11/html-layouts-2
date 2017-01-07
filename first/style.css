@@ -1,0 +1,28 @@
+
+
+.main {
+  display: flex;
+  height: 1200px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.firstBar {
+  flex: 1;
+  background-color: #fff;
+}
+
+.secondBar {
+  flex: 2;
+  background-color: #fff;
+}
+
+.thirdBar {
+  flex: 2;
+  background-color: #fff;
+}
+
+.fourthBar {
+  flex: 1;
+  background-color: #fff;
+}
