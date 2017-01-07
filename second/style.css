@@ -1,5 +1,97 @@
 body {
-  border: 2px;
-  border-color: red;
-  height: 1000px;
+  margin: 0px;
+}
+
+.main {
+  border-style: groove;
+  border-width: : 1px;
+  background-color: #D8D8D8;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstBox {
+  background-color: #fff;
+  flex: 1;
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstTopText {
+  flex: 2;
+  margin: 20px;
+}
+
+.firstBottomButtons {
+  flex: 1;
+  display: flex;
+  margin: 20px;
+  align-self: flex-start;
+  flex-direction: row;
+  align-items:flex-start;
+}
+
+.redButton {
+  border-style: none;
+  background-color: #D0021B;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.blueButton {
+  border-style: none;
+  background-color: #4A90E2;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.secondBox {
+  background-color: #fff;
+  flex: 2;
+  width: 80%;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondTopImage {
+  flex: 2;
+  /*background-image:url("http://rl.goes.here");*/
+  background-color: #4A4A4A;
+  width: auto;
+  margin: 20px;
+}
+
+.secondBottomText {
+  flex: 1;
+  margin: 20px;
+}
+
+footer {
+  color: #fff;
+  background-color: #333333;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h3 {
+  margin: 50px;
 }
